@@ -4,6 +4,8 @@ CRISTAL is an online knowledge portal to host existing and future datasets for A
 
 This User Guide explains how to use the database, describing the process for searching and viewing data as well as demonstrating data entry processes. 
 
+**NOTE:** [To make changes to this SOP, follow these instructions](https://github.com/LRCG-Newcastle/CRISTAL-user-guide/blob/main/edit-sop.md)
+
 The guide is primarily intended for use by Data Managers entering data derived from standard-of-care case reports for patients enrolled in ALL clinical trials in the UK. However, it may also aid users with Researcher access to the database in viewing, adding or amending patient and sample records for non-trial studies.
 
 To skip to instructions for completing data entry for new trial patients and editing existing patient records, click [here](#the-patient-record).
