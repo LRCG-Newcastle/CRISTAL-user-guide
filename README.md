@@ -174,7 +174,7 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 >
 > If a case report includes results from bone marrow and peripheral blood samples taken at the same timepoint (i.e. diagnosis), select *Marrow & Blood* instead of adding two separate samples.
 
-4. The **Centre** and **Hospital** fields are autofilled from data entered in the **Create New Patient** dialogue box at the start of the data entry process. If the **Centre** and **Hospital** fields are empty and the data is known, either select the appropriate options from the drop-down lists in these fields, or navigate to the **PATIENT** tab and click **Edit** to open the **Edit Patient** dialogue box.
+4. The **Centre** and **Hospital** fields are autofilled from data entered in the **Add Patient** stage of the data entry process. If the **Centre** and **Hospital** fields are empty and the data is known, either select the appropriate options from the drop-down lists in these fields, or navigate to the **PATIENT** tab and click **Edit** to open the **Edit Patient** dialogue box.
 
 
 5. Using the details in the case report, complete the **Doctor**, **Date of sample**, **Lab Sample ID** and **Hospital Number** fields.
@@ -214,14 +214,14 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 
 #### ADD AND EDIT GENETIC DATA
 
-The process for adding a Patient Abnormality varies according to type of abnormality. The following subsections outline the basic process for entering each type and include screenshots of example data entry to illustrate. 
-
-The guidance uses examples of basic cases; if the data to be entered do not appear to fit these examples, see the Troubleshooting section for more specific guidance. 
-
-Definitions of the terms used can be found in the [Glossary](#glossary).
-
-Links to headers in this subsection are provided for ease of navigation:
-
+> The process for adding a Patient Abnormality varies according to type of abnormality. The following subsections outline the basic process for entering each type and include screenshots of example data entry to illustrate. 
+> 
+> The guidance uses examples of basic cases; if the data to be entered do not appear to fit these examples, see the Troubleshooting section for more specific guidance. 
+>
+> Definitions of the terms used can be found in the [Glossary](#glossary).
+>
+> Links to headers in this subsection are provided for ease of navigation:
+>
 > [Add and edit data record](#add-and-edit-data-record)
 >
 > - [Sample](#sample)
@@ -244,37 +244,26 @@ Links to headers in this subsection are provided for ease of navigation:
 
 ##### ADD AND EDIT DATA RECORD
 
-To edit an existing abnormality record, click on the pencil icon on the right of the row.
+1. To edit an existing abnormality record, click on the pencil icon on the right of the row.
 
 ###### Screenshot of data grid for high hyperdiploid patient:
 
 ![Example of genetic abnormality data table](screenshots/patient-abnormality-edit-existing-record.png)
 
 
-To add a genetic abnormality, click the ⊕ button above the data grid. 
+2. To add a genetic abnormality, click the ⊕ button above the data grid. The **Patient Abnormality** dialogue box will open.
 
 ###### Screenshot of Add Record button:
 
 ![screenshot of add record button](screenshots/genetics-tab-add-record-button.png)
 
 
-The **Patient Abnormality** dialogue box will open.
-
-##### SAMPLE
-
-Each abnormality entered in CRISTAL must record which tissue sample the abnormality was detected in. Details of the patient's tissue samples should be entered in the **SAMPLES** tab prior to adding abnormality data in the **GENETICS** tab.
-
-To select the sample(s), click on the down arrow on the right of the **Sample** field to open the drop-down list. The data in this field is automatically generated from the data entered on the **SAMPLES** tab.
+3. Details of the patient's tissue samples should be entered in the **SAMPLES** tab prior to adding abnormality data in the **GENETICS** tab. To select the sample(s), click on the down arrow on the right of the **Sample** field to open the drop-down list. The data in this field is automatically generated from the data entered on the **SAMPLES** tab. Click in the appropriate box(es) to select, then click **OK** to save or **Cancel** to close the list without saving.
 
 ![Example of sample selection drop-down list in Patient Abnormality dialogue box](screenshots/patient-abnormality-sample-selection-2.png)
 
 
-Click in the appropriate box(es) to select, then click **OK** to save or **Cancel** to close the list without saving.
-
-##### ABNORMALITY TYPE
-The data entry process for adding a Patient Abnormality varies according to type of abnormality. 
-
-First, select the **Abnormality Type**, either using the drop-down list or by typing in the search box. The abnormality type can be found in the case report. The categories used in CRISTAL are described in the [Glossary](#glossary).
+4. The data entry process for adding a **Patient Abnormality** varies according to type of abnormality. First, select the **Abnormality Type**, either using the drop-down list or by typing in the search box. The abnormality type can be found in the case report. The categories used in CRISTAL are described in the [Glossary](#glossary).
 
 The following sections demonstrate how to add the different abnormality types.
 
