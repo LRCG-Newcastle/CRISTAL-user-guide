@@ -111,11 +111,11 @@ Full view of the demographic details is only available to users with Data Manage
 
 1. As part of the data entry process, review the data in the data grid to ensure accuracy.
 
-2. The top panel will highlight any data - such as DOB and Informed Consent status - that is incomplete and requires review.
+2. The top panel will highlight any data - such as DOB and Informed Consent status - that is incomplete and requires review. If the ALLTogether01 patient number has (Unknown) next to it, the **Trial Eligibility** field has not been completed. If eligibility status is known or pending, amend the data as in item 3. below.
 
 3. To amend the data, click the **Edit** button to open the **Edit Patient** dialogue box and make any necessary changes.
 
-![Screenshot of data record grid on Patient Tab](screenshots/patient-tab-full-view.png)
+![Screenshot of data record grid on Patient Tab](screenshots/patient-tab-full-view-v2.png)
 
 
 ------------------------------------
@@ -125,15 +125,14 @@ Full view of the demographic details is only available to users with Data Manage
 
 The **GROUPS/TRIALS** tab shows the trial-specific (or non-trial study-specific) and code group data. 
 
-The **Trial** data grid is autofilled from data entered when creating the new patient record. 
+The **Trial** data grid is autofilled from data entered on the **PATIENT** tab. 
 
-![Screenshot of Trial data grid](screenshots/groups-trials-overview-top.png)
+![Screenshot of Trial data grid](screenshots/groups-trials-overview-v2.png)
 
-The patient's trial eligibility should be added on this tab - click the pencil on the right of the row to open the **Add Patient Trial** dialogue box, then click the down arrow on the **Trial eligibility** field.
+> **Note:** If the trial is no longer active, move the *Active trial* slider to the off position.
 
-If the trial is no longer active, move the *Active trial* slider to the off position.
 
-![Screenshot of trial eligibility dialogue box](screenshots/groups-trials-eligibility.png)
+![Screenshot of active trial dialogue box](screenshots/groups-trials-active-trial-yes-no.png)
 
 The **Code Group** data grid shows which code groups the patient record is associated with. 
 
