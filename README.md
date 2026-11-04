@@ -147,8 +147,6 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 
 ### SAMPLES TAB
 
-#### VIEW RECORDS
-
 > **OVERVIEW**
 >
 > Users with Read-only access can only view existing records and will not be able to edit them or add new sample records - Data Manager or Researcher access is required.
@@ -193,8 +191,6 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 ------------------------------------
 
 ### GENETICS TAB
-
-#### VIEW RECORDS
 
 > **OVERVIEW**
 >
