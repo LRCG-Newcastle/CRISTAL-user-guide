@@ -57,13 +57,13 @@ To view the full patient record, click on the **RegID** on the left of the row. 
 
 2. Complete the fields using demographic, trial and diagnosis details from **Castor**. 
 
-> **Note:** If any details are not known at this stage - e.g. full name, date of birth, immunophenotype, Down syndrome status - leave the relevant field empty. When more data are available, the patient record can be accessed and edited by navigating to the **PATIENT** tab of the patient record and clicking the **Edit** button.
->
-> If the patient's eligibility is not yet known, select *Pending* from the **Trial Eligibility** dropdown list.
-> 
-> If the full date of birth is not known (e.g. the **Castor** database records only the month and year of birth), enter a date in the middle of the relevant month - i.e. a **Castor** DOB of Mar 2018 should be entered in **CRISTAL** as 15/03/2018. Tick the **DOB Estimated** box.
->
-> If a patient with the same identifiers has already been entered in the database, the following dialogue box will appear stating the reason for the duplicate patient alert. The full patient information can be reviewed by clicking **View Patient** on the alert box.
+    i. If any details are not known at this stage - e.g. full name, date of birth, immunophenotype, Down syndrome status - leave the relevant field empty. When more data are available, the patient record can be accessed and edited by navigating to the **PATIENT** tab of the patient record and clicking the **Edit** button.
+
+    ii. If the patient's eligibility is not yet known, select *Pending* from the **Trial Eligibility** dropdown list.
+ 
+    iii. If the full date of birth is not known (e.g. the **Castor** database records only the month and year of birth), enter a date in the middle of the relevant month - i.e. a **Castor** DOB of Mar 2018 should be entered in **CRISTAL** as 15/03/2018. Tick the **DOB Estimated** box.
+
+    iv. If a patient with the same identifiers has already been entered in the database, the following dialogue box will appear stating the reason for the duplicate patient alert. The full patient information can be reviewed by clicking **View Patient** on the alert box.
 
 
 ![Screenshot of duplicate patient alert](screenshots/duplicate-patient-alert.png)
