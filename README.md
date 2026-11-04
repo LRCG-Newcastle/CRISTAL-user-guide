@@ -12,7 +12,7 @@ To skip to instructions for completing data entry for new trial patients and edi
 
 ## CRISTAL HOMEPAGE
 
-On logging in, the user lands at the **Homepage**, which displays the database menu in the sidebar. In the following sections, each menu option is outlined in turn; click the links below to access each section or click the ![screenshot of i icon](screenshots/i-icon-all-tabs) icon as you navigate through the database. 
+On logging in, the user lands at the **Homepage**, which displays the database menu in the sidebar. In the following sections, each menu option is outlined in turn; click the links below to access each section or click the ![screenshot of i icon](screenshots/i-icon-all-tabs.png) icon as you navigate through the database. 
 
 ![homepage menu](screenshots/cristal-homepage-menu.png)
 
@@ -22,7 +22,7 @@ On logging in, the user lands at the **Homepage**, which displays the database m
 
 ### PATIENT MANAGEMENT
 
-Selecting **Patients** from the menu opens the **Patient Management** landing page, which gives an overview of patients enrolled in UK clinical trials. The data grid shows the high-level data for each patient, including basic demographic details. 
+Select **Patients** from the menu to open the **Patient Management** landing page, which gives an overview of patients enrolled in UK clinical trials. The data grid shows the high-level data for each patient, including basic demographic details. 
 
 > **Note:** Personal identifiers in each patient's record such as name, date of birth and NHS number will be hidden for database users with Researcher or Read-only access.
 >
@@ -37,7 +37,7 @@ The **Patient Management** page includes the facility to search for patients, ad
 
 Search for a specific patient by entering the RegID, trial number, or patient name or date of birth into the Search box.  
 
-To search the database without using specific patient identifiers - for example, in order to view data on male patients aged between 3 and 5 at diagnosis - navigate to the **Advanced Search** page using the menu. To skip to the **Advanced Search** section of this guide, click [here](#advanced-search).
+To search the database without using specific patient identifiers - for example, in order to view data on male patients aged between 3 and 5 at diagnosis - navigate to the **Advanced Search** page using the side menu. To skip to the **Advanced Search** section of this guide, click [here](#advanced-search).
 
 To view the full patient record, click on the **RegID** on the left of the row. To edit the patient data, click the pencil icon on the right of the row. For more information, skip to the Edit Patient section.
 
@@ -53,22 +53,24 @@ To view the full patient record, click on the **RegID** on the left of the row. 
 >
 > Add the patient to **CRISTAL** following the general process below.
 
-To create a new patient record, click the **Add Patient** button. The **Create New Patient** dialogue box will open.
+1. To create a new patient record, click the **Add Patient** button. The **Create New Patient** dialogue box will open.
 
-Complete the fields using demographic, trial and diagnosis details. 
+2. Complete the fields using demographic, trial and diagnosis details from **Castor**. 
 
-If any details are not known at this stage - e.g. full name, date of birth, immunophenotype, Down syndrome status - leave the relevant field empty. When more data are available, the patient record can be accessed and edited by navigating to the **PATIENT** tab of the patient record and clicking the **Edit** button.
-
-> **Note:** If the full date of birth is not known (e.g. the **Castor** database records only the month and year of birth), enter a date in the middle of the relevant month - i.e. a **Castor** DOB of Mar 2018 should be entered in **CRISTAL** as 15/03/2018. Tick the **DOB Estimated** box.
-
-If a patient with the same identifiers has already been entered in the database, the following dialogue box will appear stating the reason for the duplicate patient alert. The full patient information can be reviewed by clicking **View Patient** on the alert box.
+> **Note:** If any details are not known at this stage - e.g. full name, date of birth, immunophenotype, Down syndrome status - leave the relevant field empty. When more data are available, the patient record can be accessed and edited by navigating to the **PATIENT** tab of the patient record and clicking the **Edit** button.
+>
+> If the patient's eligibility is not yet known, select *Pending* from the **Trial Eligibility** dropdown list.
+> 
+> If the full date of birth is not known (e.g. the **Castor** database records only the month and year of birth), enter a date in the middle of the relevant month - i.e. a **Castor** DOB of Mar 2018 should be entered in **CRISTAL** as 15/03/2018. Tick the **DOB Estimated** box.
+>
+> If a patient with the same identifiers has already been entered in the database, the following dialogue box will appear stating the reason for the duplicate patient alert. The full patient information can be reviewed by clicking **View Patient** on the alert box.
 
 
 ![Screenshot of duplicate patient alert](screenshots/duplicate-patient-alert.png)
 
-When all of the available details have been entered in the **Create New Patient** dialogue box, click **OK** to save, or to close the box without saving, click **Cancel**.
+3. When all of the available details have been entered in the **Create New Patient** dialogue box, click **OK** to save, or to close the box without saving, click **Cancel**.
 
-Clicking **OK** opens the patient record for the new patient. Skip to [the Patient Record](#the-patient-record) section for guidance on entering the patient's case data.
+4. Clicking **OK** opens the patient record for the new patient. Skip to [the Patient Record](#the-patient-record) section for guidance on entering the patient's case data.
 
 #### UPLOAD PATIENTS
 
@@ -78,13 +80,17 @@ INSERT TEXT
 
 ### THE PATIENT RECORD
 
-The following sections describe and, where helpful, demonstrate the processes for viewing, adding and editing data in an individual patient record. The sections are structured on a tab-by-tab basis and include information on genetic abnormalities, types of tissue sample, and diagnostic techniques.
+The following sections describe and demonstrate the processes for viewing, adding and editing data in an individual patient record. The sections are structured on a tab-by-tab basis and include information on genetic abnormalities, types of tissue sample, and diagnostic techniques.
 
 The guidance is primarily for Data Managers entering data derived from standard-of-care case reports for UK clinical trial patients. The examples in the tab guides are adapted from ALLTogether01 trial data.
 
-There are also links in each tab guide to a Resources section for further information, including a Glossary and a data entry Troubleshooting guide.
+There are also links in each tab guide to a Resources section for further information, including a data entry Troubleshooting guide.
 
-For the ALLTogether01 trial, typically the initial patient record is created when the patient is registered on the trial, prior to receiving the diagnostic report. To locate the initial patient record to add the report data, first click on **Patients** in the sidebar to open the **Patient Management** page, then use the **Search** function to enter the patient's name or trial number. Clicking the **RegID** on the returned data grid will open the patient record at the **OVERVIEW** tab.
+For the ALLTogether01 trial, typically the initial patient record is created when the patient is registered on the trial, prior to receiving the diagnostic report. To locate the initial patient record to add the report data:
+
+1. Click on **Patients** in the sidebar to open the **Patient Management** page.
+2. Use the **Search** function to enter the patient's name or trial number.
+3. Click the **RegID** on the data grid to open the patient record at the **OVERVIEW** tab.
 
 If the patient record is not found, create the new patient record by following the instructions in the [Add Patient](#add-patient) section.
 
@@ -103,9 +109,11 @@ The **PATIENT** tab presents an at-a-glance view of the patient's demographics, 
 
 Full view of the demographic details is only available to users with Data Manager access; patient identifiers will be hidden for Researcher and Read-only users. Personal identifiers in the screenshot below have been redacted.
 
-As part of the data entry process, review the data in the data grid to ensure accuracy. 
+1. As part of the data entry process, review the data in the data grid to ensure accuracy.
 
-To amend the data, click the **Edit** button to open the **Edit Patient** dialogue box and make any necessary changes.
+2. The top panel will highlight any data - such as DOB and Informed Consent status - that is incomplete and requires review.
+
+3. To amend the data, click the **Edit** button to open the **Edit Patient** dialogue box and make any necessary changes.
 
 ![Screenshot of data record grid on Patient Tab](screenshots/patient-tab-full-view.png)
 
