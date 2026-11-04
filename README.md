@@ -531,7 +531,7 @@ Techniques used to detect CNAs include karyotyping, FISH, SNP array and whole ge
 
 *MUTATION*
 
-Also known as a variant, mutation occurs when there is a substitution of one or more nucleotides in the DNA sequence. This can result in the coding of a different amino acid (missense variant) leading to reduction in function of the relevant protein or production of an incorrect protein, or it may stop the coding (nonsense variant, called 'stop codon' in CRISTAL) resulting in non- or reduced production of the protein.
+Also known as a variant, mutation occurs when there is a change in the DNA sequence caused by substitution, deletion or insertion of one or more nucleotides. Such changes can have various effects, including the coding of a different amino acid (missense variant) leading to reduction in function of the relevant protein or production of an incorrect protein, or it may stop the coding (nonsense variant, called 'stop codon' in CRISTAL) resulting in non- or reduced production of the protein.
 
 [add Somatic vs Germline explanation]
  
