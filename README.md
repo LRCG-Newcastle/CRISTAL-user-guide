@@ -12,7 +12,7 @@ To skip to instructions for completing data entry for new trial patients and edi
 
 ## CRISTAL HOMEPAGE
 
-On logging in, the user lands at the **Homepage**, which displays the database menu in the sidebar. In the following sections, each menu option is outlined in turn; click the links below to access each section or click the i icon as you navigate through the database. 
+On logging in, the user lands at the **Homepage**, which displays the database menu in the sidebar. In the following sections, each menu option is outlined in turn; click the links below to access each section or click the ![screenshot of i icon](screenshots/i-icon-all-tabs) icon as you navigate through the database. 
 
 ![homepage menu](screenshots/cristal-homepage-menu.png)
 
