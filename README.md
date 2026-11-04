@@ -105,9 +105,11 @@ TBC
 
 ### PATIENT TAB
 
-The **PATIENT** tab presents an at-a-glance view of the patient's demographics, diagnosis details, trial participation and consent status, as well as reference data such as NHS and GEL numbers. The data grid is autofilled from the data entered at the **Add Patient** stage.
-
-Full view of the demographic details is only available to users with Data Manager access; patient identifiers will be hidden for Researcher and Read-only users. Personal identifiers in the screenshot below have been redacted.
+> **OVERVIEW**
+>
+> The **PATIENT** tab presents an at-a-glance view of the patient's demographics, diagnosis details, trial participation and consent status, as well as reference data such as NHS and GEL numbers. The data grid is autofilled from the data entered at the **Add Patient** stage.
+>
+> Full view of the demographic details is only available to users with Data Manager access; patient identifiers will be hidden for Researcher and Read-only users. Personal identifiers in the screenshot below have been redacted.
 
 1. As part of the data entry process, review the data in the data grid to ensure accuracy.
 
@@ -147,13 +149,13 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 
 #### VIEW RECORDS
 
-> **Note:** Users with Read-only access can only view existing records and will not be able to edit them or add new sample records - Data Manager or Researcher access is required.
-
-The data grid displays the high-level information for each tissue sample recorded for the patient. To view the full record, click on the pencil icon [TBC] on the right of the row. 
-
-If a tissue sample is stored in the Herschel lab, the details can be viewed by clicking the grid icon on the right of the row.
-
-For information on editing the record, see the data entry instructions in the following section. 
+> **OVERVIEW**
+>
+> Users with Read-only access can only view existing records and will not be able to edit them or add new sample records - Data Manager or Researcher access is required.
+>
+> The data grid displays the high-level information for each tissue sample recorded for the patient. To view the full record, click on the pencil icon on the right of the row.
+>
+> If a tissue sample is stored in the Herschel lab, the details can be viewed by clicking the grid icon on the right of the row.
 
 
 ![Example of patient sample records](screenshots/samples-overview.png)
@@ -161,32 +163,29 @@ For information on editing the record, see the data entry instructions in the fo
 
 #### ADD AND EDIT SAMPLES
 
-To add a sample, click the ⊕ button above the data grid. To edit an existing sample record, click the pencil icon on the right of the row. 
-
-The **Add Patient Sample** dialogue box will open. 
+1. To add a sample, click the ⊕ button above the data grid. To edit an existing sample record, click the pencil icon on the right of the row. The **Add Patient Sample** dialogue box will open. 
 
 ![Example of add patient sample dialogue box](screenshots/samples-add-patient-sample.png)
 
 
-The **Centre** and **Hospital** fields are autofilled from data entered in the **Create New Patient** dialogue box at the start of the data entry process. 
+2. Select the **Patient Status** from the drop-down list. When entering data from a case report, the patient status will usually be *Diagnosis*.
 
-If the diagnostic centre and hospital were not added at the time of creating the new patient record, these fields will be empty. To add this data after the patient record has been created, either select the appropriate options from the drop-down lists in the **Centre** and **Hospital** fields, or navigate to the **PATIENT** tab and click **Edit** to open the **Edit Patient** dialogue box.
-
-Next, select the **Patient Status** from the drop-down list. When entering data from a case report, the patient status will usually be *Diagnosis*.
-
-Select **Sample Type** from the drop-down list. The tissue type can be found in the case report.
+3. Select **Sample Type** from the drop-down list. The tissue type can be found in the case report.
 
 > **Note:**
 >
 > If a case report includes results from bone marrow and peripheral blood samples taken at the same timepoint (i.e. diagnosis), select *Marrow & Blood* instead of adding two separate samples.
 
-Using the details in the case report, complete the **Doctor**, **Date of sample**, **Lab Sample ID** and **Hospital Number** fields.
+4. The **Centre** and **Hospital** fields are autofilled from data entered in the **Create New Patient** dialogue box at the start of the data entry process. If the **Centre** and **Hospital** fields are empty and the data is known, either select the appropriate options from the drop-down lists in these fields, or navigate to the **PATIENT** tab and click **Edit** to open the **Edit Patient** dialogue box.
+
+
+5. Using the details in the case report, complete the **Doctor**, **Date of sample**, **Lab Sample ID** and **Hospital Number** fields.
 
 > **Note:**
 >
 > The 'Hospital Number' may not be included in the case report, or it may be called 'MRN'.
 
-Click **OK** to save or **Cancel** to close the dialogue box without saving.
+6. Click **OK** to save or **Cancel** to close the dialogue box without saving.
 
 ![Example of completed patient sample data entry](screenshots/samples-add-patient-sample-complete.png)
 
@@ -197,21 +196,20 @@ Click **OK** to save or **Cancel** to close the dialogue box without saving.
 
 #### VIEW RECORDS
 
-> **Note:** Users with Read-only access can only view existing records and will not be able to edit them or add new records - Data Manager access is required.
-
-##### KARYOTYPE
-If karyotype data is reported for the patient, it will be displayed in a coloured strip at the top of the tab. The data in this field is automatically generated from data entered in the **TECHNIQUES** tab. 
-
-##### SUBTYPE FROM GENETICS
-The data in this field is automatically generated from the abnormality data entered on the **GENETICS** tab.
+> **OVERVIEW**
+>
+> Users with Read-only access can only view existing records and will not be able to edit them or add new records - Data Manager access is required.
+>
+> If **Karyotype** data is reported for the patient, it will be displayed in a coloured strip at the top of the tab. The data in this field is automatically generated from data entered in the **TECHNIQUES** tab.
+>
+> The **Subtype from Genetics** is automatically generated from the abnormality data entered on the **GENETICS** tab.
 
 ![Example of karyotype and subtype](screenshots/genetics-tab-topline.png)
 
 
-##### ABNORMALITY DATA
-The data grid displays the high-level information for each cytogenetic/molecular abnormality recorded for the patient. To view the full record, click on the pencil icon [TBC] on the right of the row. 
-
-For information on editing the record, see the data entry instructions in the following section. 
+> The data grid displays the high-level information for each cytogenetic/molecular abnormality recorded for the patient. To view the full record, click on the pencil icon on the right of the row.
+>
+> For information on editing the record, see the data entry instructions in the following section. 
 
 ![Example of genetic abnormality data table](screenshots/genetics-tab-view-data.png)
 
