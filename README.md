@@ -6,13 +6,13 @@ This User Guide explains how to use the database, describing the process for sea
 
 **NOTE:** [To make changes to this SOP, follow these instructions](https://github.com/LRCG-Newcastle/CRISTAL-user-guide/blob/main/edit-sop.md)
 
-The guide is primarily intended for use by Data Managers entering data derived from standard-of-care case reports for patients enrolled in ALL clinical trials in the UK. However, it may also aid users with Researcher access to the database in viewing, adding or amending patient and sample records for non-trial studies.
+The guide is primarily intended for use by Data Managers entering data derived from standard-of-care case reports for patients enrolled in ALL clinical trials in the UK. It may also aid users with Researcher access to the database in viewing, adding or amending patient and sample records for non-trial studies.
 
 To skip to instructions for completing data entry for new trial patients and editing existing patient records, click [here](#the-patient-record).
 
 ## CRISTAL HOMEPAGE
 
-On logging in, the user lands at the **Homepage**, which displays the database menu in the sidebar. In the following sections, each menu option is outlined in turn; click the links below to access each section. 
+On logging in, the user lands at the **Homepage**, which displays the database menu in the sidebar. In the following sections, each menu option is outlined in turn; click the links below to access each section or click the i icon as you navigate through the database. 
 
 ![homepage menu](screenshots/cristal-homepage-menu.png)
 
