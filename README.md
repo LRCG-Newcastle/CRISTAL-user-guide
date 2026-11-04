@@ -341,16 +341,6 @@ Click **OK** to save or **Cancel** to close the dialog box without saving.
 
 This section describes the process for entering data on changes in copy number, i.e. chromosomal gains and losses or deletions.
 
-> **In brief:**
->
-> A copy number alteration (also copy number variation) is a change in the expected number of copies of a gene or (a part of) a chromosome (i.e. more or fewer than 2). A copy number of 1 or 0 may be referred to in case reports as a loss or a deletion, which may be monoallelic or biallelic. Typically 'loss' refers to a whole chromosome and 'deletion' refers to part of a chromosome, but case reports vary in their use of the terms. A copy number greater than 2 will be referred to as a gain. A gain of 1 extra copy of a gene or chromosome (i.e. 3 copies in total) is known as trisomy, 2 extra copies is tetrasomy, and so on. Multiple extra copies of a segment of a chromosome may be classed as amplification.
->
-> Techniques used to detect CNAs include karyotyping, FISH, SNP array and whole genome sequencing.
-> 
-> **Note:**
->
-> Gains or losses of multiple chromosomes in a cell is termed a [ploidy shift](#glossary#ploidy-shift). The process for entering data on ploidy shifts is described in a [later section](#ploidy-shift).
-
 After ensuring the **Sample** field is correct and selecting Copy Number Alteration in the **Abnormality Type** field, open the drop-down list in the **Abnormality** field and select the appropriate option:
 - *Whole Chromosome* if the CNA is a gain or loss of an entire chromosome,
 - *Chromosome Arm* if the CNA affects only part of a chromosome - either the short (p) arm or the long (q) arm,
@@ -526,6 +516,33 @@ Click **OK** to save or **Cancel** to close the dialogue box without saving.
 ### RESOURCES
 
 #### Reference materials for use with CRISTAL data entry guide
+
+### Complete novice's guide to (cyto)genetics
+
+*COPY NUMBER ALTERATION*
+
+i.e. chromosomal gains and losses or deletions.
+
+A copy number alteration (also copy number variation) is a change in the expected number of copies of a gene or (a part of) a chromosome (i.e. more or fewer than 2). A copy number of 1 or 0 may be referred to in case reports as a loss or a deletion, which may be monoallelic or biallelic. Typically 'loss' refers to a whole chromosome and 'deletion' refers to part of a chromosome, but case reports vary in their use of the terms. A copy number greater than 2 will be referred to as a gain. A gain of 1 extra copy of a gene or chromosome (i.e. 3 copies in total) is known as trisomy, 2 extra copies is tetrasomy, and so on. Multiple extra copies of a segment of a chromosome may be classed as amplification.
+
+Gains or losses of multiple chromosomes in a cell is termed a [ploidy shift](#glossary#ploidy-shift). The process for entering data on ploidy shifts is described in a [later section](#ploidy-shift).
+
+Techniques used to detect CNAs include karyotyping, FISH, SNP array and whole genome sequencing.
+
+*MUTATION*
+
+Also known as a variant, mutation occurs when there is a substitution of one or more nucleotides in the DNA sequence. This can result in the coding of a different amino acid (missense variant) leading to reduction in function of the relevant protein or production of an incorrect protein, or it may stop the coding (nonsense variant, called 'stop codon' in CRISTAL) resulting in non- or reduced production of the protein.
+
+[add Somatic vs Germline explanation]
+ 
+The case report will include details of the affected gene, the location, the nucleotide substitution ('coding change' in CRISTAL) and the change in amino acid ('protein change' in CRISTAL).
+
+ | Gene | Location | Coding change | Protein change |
+ | --- | --- | --- | --- |
+ | *KRAS* | NM_004985.5 | c.436G>A | p.(Ala146Thr) |
+
+Techniques used to detect genetic variants or mutations include DNA sequencing and whole genome sequencing. 
+
 
 ### ALL genes
 
