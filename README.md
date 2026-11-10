@@ -216,31 +216,10 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 
 > The process for adding a Patient Abnormality varies according to type of abnormality. The following subsections outline the basic process for entering each type and include screenshots of example data entry to illustrate. 
 > 
-> The guidance uses examples of basic cases; if the data to be entered do not appear to fit these examples, see the Troubleshooting section for more specific guidance. 
+> The guidance uses examples of basic cases; if the data to be entered do not appear to fit these examples, and for guidance on terminology used in case reports, see the Troubleshooting section.
 >
 > Definitions of the terms used can be found in the [Glossary](#glossary).
->
-> Links to headers in this subsection are provided for ease of navigation:
->
-> [Add and edit data record](#add-and-edit-data-record)
->
-> - [Sample](#sample)
->
-> - [Abnormality Type](#abnormality-type)
->
->    - [Gene Fusion](#gene-fusion)
->
->    - [Copy Number Alteration](#copy-number-alteration)
->
->    - [Mutation](#mutation)
->
->    - [Other](#other) 
->
->    - [Ploidy Shift](#ploidy-shift)
->
->    - [Stuctural Abnormality](#structural-abnormality)
->
->    - [Profile](#profile)
+ 
 
 ##### ADD AND EDIT DATA RECORD
 
