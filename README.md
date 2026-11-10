@@ -177,7 +177,7 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 4. The **Centre** and **Hospital** fields are autofilled from data entered in the **Add Patient** stage of the data entry process. If the **Centre** and **Hospital** fields are empty and the data is known, either select the appropriate options from the drop-down lists in these fields, or navigate to the **PATIENT** tab and click **Edit** to open the **Edit Patient** dialogue box.
 
 
-5. Using the details in the case report, complete the **Doctor**, **Date of sample**, **Lab Sample ID** and **Hospital Number** fields.
+5. Using the details in the case report, complete the **Doctor**, **Date of sample**, **Lab Sample ID** and **Hospital Number** fields. If these details are not included in the report, leave the field(s) blank.
 
 > **Note:**
 >
@@ -242,60 +242,25 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 ![Example of sample selection drop-down list in Patient Abnormality dialogue box](screenshots/patient-abnormality-sample-selection-2.png)
 
 
-4. The data entry process for adding a **Patient Abnormality** varies according to type of abnormality. First, select the **Abnormality Type**, either using the drop-down list or by typing in the search box. The abnormality type can be found in the case report. The categories used in CRISTAL are described in the [Glossary](#glossary).
+4. The data entry process for adding a **Patient Abnormality** varies according to type of abnormality. First, select the **Abnormality Type**, either using the drop-down list or by typing in the search box. The abnormality type can be found in the case report. For guidance on which category/ies to select for the types of abnormality found in case reports, see the Troubleshooting section.
 
 The following sections demonstrate how to add the different abnormality types.
 
 ##### *GENE FUSION*
 
-This section describes the process for entering data for a gene fusion or a gene rearrangement. 
+This section describes the process for entering data for a **gene fusion** or a **gene rearrangement**. For guidance on entering data for a **translocation**, see the Structural Abnormality section.
 
-> Add 'In brief' section here
-> 
-> [where to point out that 'chromosomal translocation' is in the Structural Abnormality section?]
-> 
-> Techniques used to detect gene fusions or rearrangements include karyotyping, FISH, RNA fusion panel and WGS.
+1. Select **Gene Fusion** in the **Abnormality Type** field. This loads a drop-down list in the **Abnormality** field that consists of gene fusions and rearrangements that are frequently found in ALL. To enter a gene fusion/rearrangement that is not in the list, the *Other - Gene Fusion* option should be used.
 
-Selecting **Gene Fusion** in the **Abnormality Type** field loads a drop-down list in the **Abnormality** field that consists of gene fusions and rearrangements that are frequently found in ALL. To add a gene fusion/rearrangement that is not in the list, the *Other - Gene Fusion* option should be used. The data entry processes for a listed gene fusion, gene rearrangement and 'other - gene fusion' are outlined in the following subsections.
+2. To view the drop-down list of frequently found gene fusions and rearrangements, click the down arrow on the **Abnormality** field.
 
-To view the drop-down list of frequently found gene fusions and rearrangements, click the down arrow on the **Abnormality** field.
+3. Select the gene fusion or rearrangement either by using the drop-down list or by typing in the search box.
 
-Select the gene fusion either by using the drop-down list or by typing in the search box.
+    i. If a gene fusion (e.g. *ETV6::RUNX1*) is selected from the list, the **5’ Gene** and **3’ Gene** fields will be autofilled.
+   
+    ii. If a gene rearrangement (e.g. *KMT2A-r*) is selected from the list, the relevant gene field will be autofilled. Enter the partner gene into the appropriate field.
 
-If a gene fusion (e.g. *ETV6::RUNX1*) is selected from the list, the **5’ Gene** and **3’ Gene** fields will be autofilled. 
-
-If specified in the case report, enter the exons for each gene into the appropriate fields.
-
-If applicable, enter any clinically relevant information in the **Notes** field.
-
-Click **OK** to save or **Cancel** to close the dialogue box without saving.
-
-###### Example: ETV6::RUNX1, detected by FISH, RNA fusion panel, WGS
-
-![Screenshot of ETV6::RUNX1 gene fusion data entry example](screenshots/patient-abnormality-gene-fusion-2.png)
-
-
-
-If a gene rearrangement (e.g. *KMT2A-r*) is selected from the list, the relevant gene field will be autofilled.
-
-Enter the partner gene into the appropriate field.
-
-If specified in the case report, enter the exons for each gene into the appropriate fields.
-
-If applicable, enter any clinically relevant information into the **Notes** field.
-
-Click **OK** to save or **Cancel** to close the dialogue box without saving.
-
-###### Example: KMT2A::MLLT3, detected by WGS, RNA fusion panel
-
-![Screenshot of KMT2A-r abnormality data entry example](screenshots/patient-abnormality-rearrangement-2.png)
-
-
-
-
-If the case report includes a gene fusion that is not in the drop-down list, select **Other – Gene Fusion**.
-
-Enter the name of the 5’ gene and 3’ gene into the appropriate fields.
+   iii. If the case report includes a gene fusion that is not in the drop-down list, select **Other – Gene Fusion**. Enter the name of the 5’ gene and 3’ gene into the appropriate fields.
 
 > **Identifying 5' and 3' genes:**
 >
@@ -307,11 +272,22 @@ Enter the name of the 5’ gene and 3’ gene into the appropriate fields.
 >
 > The case report may use old names for genes which have been renamed, for example: *KMT2A* (new) is often referred to as *MLL* (former name). Entering *MLL* in the **5' Gene** search box will bring up *KMT2A* at the top of the returned list.
 
-If specified in the case report, enter the exons for each gene into the appropriate fields.
+6. If specified in the case report, enter the exons for each gene into the appropriate fields.
 
-If applicable, enter any clinically relevant information into the **Notes** field.
+7. If applicable, enter any clinically relevant information in the **Notes** field.
 
-Click **OK** to save or **Cancel** to close the dialog box without saving.
+8. Click **OK** to save or **Cancel** to close the dialogue box without saving.
+
+###### Example: ETV6::RUNX1, detected by FISH, RNA fusion panel, WGS
+
+![Screenshot of ETV6::RUNX1 gene fusion data entry example](screenshots/patient-abnormality-gene-fusion-2.png)
+
+
+
+###### Example: KMT2A::MLLT3, detected by WGS, RNA fusion panel
+
+![Screenshot of KMT2A-r abnormality data entry example](screenshots/patient-abnormality-rearrangement-2.png)
+
 
 [Return to top of section](#add-and-edit-genetic-data)
 
