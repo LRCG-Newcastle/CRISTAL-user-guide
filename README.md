@@ -294,7 +294,7 @@ This section describes the process for entering data for a **gene fusion** or a 
 
 ##### *COPY NUMBER ALTERATION*
 
-This section describes the process for entering data on changes in copy number, i.e. chromosomal gains and losses or deletions.
+This section describes the process for entering data on changes in copy number, i.e. chromosomal gains and losses or deletions. Note: iAMP21 should be entered as **Structural Abnormality**.
 
 After ensuring the **Sample** field is correct and selecting Copy Number Alteration in the **Abnormality Type** field, open the drop-down list in the **Abnormality** field and select the appropriate option:
 - *Whole Chromosome* if the CNA is a gain or loss of an entire chromosome,
