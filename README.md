@@ -247,17 +247,17 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 >
 > For guidance on entering data for a **translocation**, see the Structural Abnormality section.
 
-1. Select **Gene Fusion** in the **Abnormality Type** field. This loads a drop-down list in the **Abnormality** field that consists of gene fusions and rearrangements that are frequently found in ALL. To enter a gene fusion/rearrangement that is not in the list, the *Other - Gene Fusion* option should be used.
+a. Select **Gene Fusion** in the **Abnormality Type** field. This loads a drop-down list in the **Abnormality** field that consists of gene fusions and rearrangements that are frequently found in ALL. To enter a gene fusion/rearrangement that is not in the list, the *Other - Gene Fusion* option should be used.
 
-2. To view the drop-down list of frequently found gene fusions and rearrangements, click the down arrow on the **Abnormality** field.
+b. To view the drop-down list of frequently found gene fusions and rearrangements, click the down arrow on the **Abnormality** field.
 
-3. Select the gene fusion or rearrangement either by using the drop-down list or by typing in the search box.
+c. Select the gene fusion or rearrangement either by using the drop-down list or by typing in the search box.
 
-    - If a gene fusion (e.g. *ETV6::RUNX1*) is selected from the list, the **5’ Gene** and **3’ Gene** fields will be autofilled.
+- If a gene fusion (e.g. *ETV6::RUNX1*) is selected from the list, the **5’ Gene** and **3’ Gene** fields will be autofilled.
    
-    - If a gene rearrangement (e.g. *KMT2A-r*) is selected from the list, the relevant gene field will be autofilled. Enter the partner gene into the appropriate field.
+- If a gene rearrangement (e.g. *KMT2A-r*) is selected from the list, the relevant gene field will be autofilled. Enter the partner gene into the appropriate field.
 
-    - If the case report includes a gene fusion that is not in the drop-down list, select **Other – Gene Fusion**. Enter the name of the 5’ gene and 3’ gene into the appropriate fields.
+- If the case report includes a gene fusion that is not in the drop-down list, select **Other – Gene Fusion**. Enter the name of the 5’ gene and 3’ gene into the appropriate fields.
 
 > **Identifying 5' and 3' genes:**
 >
@@ -269,13 +269,13 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 >
 > The case report may use old names for genes which have been renamed, for example: *KMT2A* (new) is often referred to as *MLL* (former name). Entering *MLL* in the **5' Gene** search box will bring up *KMT2A* at the top of the returned list.
 
-4. If specified in the case report, enter the exons for each gene into the appropriate fields.
+d. If specified in the case report, enter the exons for each gene into the appropriate fields.
 
-5. Select the diagnostic technique used to detect the abnormality. The technique will be stated in the case report. For ALLTogether01 data entry, the relevant technique for a gene fusion is *RNA fusion panel*.
+e. Select the diagnostic technique used to detect the abnormality. The technique will be stated in the case report. For ALLTogether01 data entry, the relevant technique for a gene fusion is *RNA fusion panel*.
 
-6. If applicable, enter any clinically relevant information in the **Notes** field.
+f. If applicable, enter any clinically relevant information in the **Notes** field.
 
-7. Click **OK** to save or **Cancel** to close the dialogue box without saving.
+g. Click **OK** to save or **Cancel** to close the dialogue box without saving.
 
 ###### Example: ETV6::RUNX1, detected by FISH, RNA fusion panel, WGS
 
@@ -295,30 +295,33 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 
 > This section describes the process for entering data on changes in copy number, i.e. chromosomal gains and losses or deletions.
 >
-> **Note:** iAMP21 should be entered as **Structural Abnormality**.
+> **Note:** *iAMP21* should be entered as **Structural Abnormality**.
 
-1. Select **Copy Number Alteration** in the **Abnormality Type** field.
+a. Select **Copy Number Alteration** in the **Abnormality Type** field.
 
-2. Open the drop-down list in the **Abnormality** field and select the appropriate option:
+b. Open the drop-down list in the **Abnormality** field and select the appropriate option:
+
 - *Whole Chromosome* if the CNA is a gain or loss of an entire chromosome [see Troubleshooting guide for a variant on this]
+
 - *Chromosome Arm* if the CNA affects part of a chromosome - either the short (p) arm or the long (q) arm - that does not include the centromere,
+
 - *Focal* if the CNA relates to gain or deletion of a specific gene or genes, or a very small part of a chromosome arm (typically smaller than 1 Mb).
 
 > **Note:** Only select a Constitutional option if the case report states it is a constitutional or germline abnormality.
 >
 > For guidance on entering *Trisomy 21* for Downs patients, see the Troubleshooting guide.
 
-3. Select the relevant option(s) from the drop-down list in the **Technique** field. The technique will be stated in the case report.
+c. Select the relevant option(s) from the drop-down list in the **Technique** field. The technique will be stated in the case report.
 
-4. Select the correct subtype in the **CNA Type** field. This information can be found in the case report. (Further information on the CNA types - deletion (monoallelic and biallelic), duplication, gain, amplification, loss of heterozygosity, isochromosome and loss - can be found in the Glossary.)
+d. Select the correct subtype in the **CNA Type** field. This information can be found in the case report. (Further information on the CNA types - deletion (monoallelic and biallelic), duplication, gain, amplification, loss of heterozygosity, isochromosome and loss - can be found in the Glossary.)
 
-5. In the remaining fields, enter the copy number, affected chromosome/chromosome arm, any genes that are specified in the report, exons (if included in the report), chromosome start and end points, chromosome size, genomic start and end points, genomic size, and variant frequency (VAF) in the relevant fields. Note that case reports vary in the amount and type of information included.
+e. In the remaining fields, enter the copy number, affected chromosome/chromosome arm, any genes that are specified in the report, exons (if included in the report), chromosome start and end points, chromosome size, genomic start and end points, genomic size, and variant frequency (VAF) in the relevant fields. Note that case reports vary in the amount and type of information included.
 
-6. Enter any clinically relevant information into the **Notes** field.
+f. Enter any clinically relevant information into the **Notes** field.
 
-7. Click **OK** to save or **Cancel** to close the dialogue box without saving.
+g. Click **OK** to save or **Cancel** to close the dialogue box without saving.
 
-###### Example: CNA - biallelic deletion on 9p involving genes CDKN2A and CDKN2B, detected by WGS and SNP array
+###### Example: CNA - biallelic deletion on 9p involving genes CDKN2A and CDKN2B, detected by SNP array
 
 ![screenshot of biallelic deletion on 9p](screenshots/patient-abnormality-CNA-biallelic-deletion-v2.png)
 
@@ -328,38 +331,21 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 
 ##### *MUTATION*
 
-This section describes the process for entering data on genetic mutations (variants).
+a. Select the specific mutation from the drop-down list; if it is not listed, select **Other – Gene Mutation**.
 
-> **In brief:**
->
-> Also known as a variant, mutation occurs when there is a substitution of one nucleotide for another in the DNA sequence. This can result in the coding of a different amino acid (missense variant) leading to production of an incorrect protein, or it may stop the coding (nonsense variant, called 'stop codon' in CRISTAL) resulting in non-production of the protein.
->
-> [add Somatic vs Germline explanation]
-> 
->  As shown below, the case report will include details of the affected gene, the location, the nucleotide substitution ('coding change' in CRISTAL) and the change in amino acid ('protein change' in CRISTAL).
->
-> | Gene | Location | Coding change | Protein change |
-> | --- | --- | --- | --- |
-> | *KRAS* | NM_004985.5 | c.436G>A | p.(Ala146Thr) |
->
-> Techniques used to detect genetic variants or mutations include DNA sequencing and whole genome sequencing. 
+b. Select the technique(s) used to detect the abnormality.
 
+c. From the drop-down lists, select Somatic or Germline, select the affected gene by typing in the search box of the **Gene** field, and select mutation type if specified.
 
-Select the specific mutation from the drop-down list; if it is not listed, select **Other – Gene Mutation**.
+d. Enter the genomics change (if specified), coding change, and protein change. 
 
-Select the technique(s) used to detect the abnormality.
+e. Select the classification from drop-down list if specified.
 
-From the drop-down lists, select Somatic or Germline, specify the affected gene, and mutation type if specified.
+f. Complete the **Variant Frequency** field. This may be referred to in the case report as VAF or Variant Allele Frequency.
 
-Enter the genomics change (if specified), coding change, and protein change.
+g. Enter any clinically relevant information into the **Notes** field.
 
-Select the classification from drop-down list if specified.
-
-Complete the **Variant Frequency** field.
-
-Enter any clinically relevant information into the **Notes** field.
-
-Click **OK** to save or **Cancel** to close the dialog box without saving.
+h. Click **OK** to save or **Cancel** to close the dialog box without saving.
 
 ###### Example: germline missense variant of uncertain significance in the BRCA2 gene
 
@@ -370,27 +356,35 @@ Click **OK** to save or **Cancel** to close the dialog box without saving.
 
 ##### *OTHER*
 
-TEXT HERE
-
-SCREENSHOT HERE
-
-LINK HERE
+> Selecting **Other** gives the same options as **Structural Abnormality**. Use that instead.
 
 ##### *PLOIDY SHIFT*
 
-Select the type of [ploidy shift](glossary#ploidy-shift) from the drop-down list.
+> Ploidy shift is a change from the expected number of 46 chromosomes. Select **Ploidy shift** if the reported number of chromosomes fits into one of the following categories:
+>
+>    *High hyperdiploidy* = 51-64 chromosomes
+> 
+>    *Low hypodiploid* = 30-39 chromosomes
+>
+>    *Near haploid* = 24-29 chromosomes
+>
+> If between one and four chromosomes have been gained or lost, do not use **Ploidy shift**; instead enter each one as a separate gain or loss. See the **Copy Number Alteration** section for details on how to enter.
 
-Select the technique(s) used to detect the abnormality.
+a. Select the type of ploidy shift from the drop-down list. See information box above for details.
 
-In the appropriate fields, enter the modal chromosome number, specify which chromosomes have been gained and/or which chromosomes have been lost.
+b. Select the technique(s) used to detect the abnormality.
 
-> **Note:** chromosome numbers should be entered in numerical order, with X and/or Y at the start of the list (if applicable). 
+c. In the appropriate fields, enter the modal chromosome number (use ~ if reported number is estimated), specify which chromosomes have been gained and/or which chromosomes have been lost.
 
-Complete the **Variant Frequency** field.
+> **Note:** Chromosome numbers should be entered in numerical order, with X and/or Y at the start of the list (if applicable). 
 
-Enter any clinically relevant information in the **Notes** field.
+d. Complete the **Variant Frequency** field if known.
 
-Click **OK** to save or **Cancel** to close the dialog box without saving.
+e. Complete the **ISCN like description** field if known.
+
+f. Enter any clinically relevant information in the **Notes** field.
+
+g. Click **OK** to save or **Cancel** to close the dialog box without saving.
 
 ###### Example: high hyperdiploidy (HeH) with 53 chromosomes, detected by karyotype, FISH, WGS and SNP
 
@@ -409,27 +403,23 @@ LINK HERE
 
 ##### *PROFILE*
 
-> **In brief:**
+> Case reports for ALLTogether01 patients will include the CNA Risk Profile, categorising the patient as either **Good Risk** or **Poor Risk**. If this information is not included in the report, use the ALLTogether01 algorithm shown [below](#cna-risk-profile-algorithm) to determine the Risk Profile from the information in the case report regarding deletion of [ALL genes](#all-genes). 
 >
-> The CNA Risk Profile is
-
-Case reports for ALLTogether01 patients will include the CNA Risk Profile, categorising the patient as either **Good Risk** or **Poor Risk**. If this information is not included in the report, use the ALLTogether01 algorithm shown [below](#cna-risk-profile-algorithm) to determine the Risk Profile from the information in the case report regarding deletion of [ALL genes](#all-genes). 
-
 > **Note:**
 >
 > Risk Profile is only calculated for B-ALL patients.
 >
 > Different risk algorithms are used for the different trials. The algorithm shown below is for the current ALLTogether01 trial.
 
-**Abnormality Type** list - select **Profile**.
+a. Select **Profile** from the **Abnormality Type** drop-down list.
 
-**Abnormality** field - select **UKALL CNA Profile**. 
+b. In the **Abnormality** field, select **UKALL CNA Profile**. 
 
-**CNA Result** field - select **Good Risk** or **Poor Risk**.
+c. Select **Good Risk** or **Poor Risk** in the **CNA Result** field.
 
-Enter any clinically relevant information in the **Notes** field.
+d. If the CNA Profile is Poor Risk, enter the relevant ALL gene deletions in the **Notes** field. (See table below.)
 
-Click **OK** to save or **Cancel** to close the dialogue box without saving.
+e. Click **OK** to save or **Cancel** to close the dialogue box without saving.
 
 ###### Example: CNA Risk Profile of patient with isolated CDKN2A/B deletion - Poor Risk
 
