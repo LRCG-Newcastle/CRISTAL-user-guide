@@ -239,11 +239,7 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 
 5. Enter abnormality data according to the instructions in the following subsections.
 
-6. Select the diagnostic technique used to detect the abnormality.
 
-> The **Technique** field drop-down list includes several techniques; for entering ALLTogether01 data from case reports, only SNP Array, WGS, DNA Sequencing, RNA fusion panel, or FISH will be relevant. The case report will specify which was used.
->
-> See also the Resources section for guidance on which technique is used to detect which type of abnormality.
 
 ##### *GENE FUSION*
 
@@ -275,9 +271,11 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 
 4. If specified in the case report, enter the exons for each gene into the appropriate fields.
 
-5. If applicable, enter any clinically relevant information in the **Notes** field.
+5. Select the diagnostic technique used to detect the abnormality. The technique will be stated in the case report. For ALLTogether01 data entry, the relevant technique for a gene fusion is *RNA fusion panel*.
 
-6. Click **OK** to save or **Cancel** to close the dialogue box without saving.
+6. If applicable, enter any clinically relevant information in the **Notes** field.
+
+7. Click **OK** to save or **Cancel** to close the dialogue box without saving.
 
 ###### Example: ETV6::RUNX1, detected by FISH, RNA fusion panel, WGS
 
@@ -310,19 +308,19 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 >
 > For guidance on entering *Trisomy 21* for Downs patients, see the Troubleshooting guide.
 
-3. Select the relevant option(s) from the drop-down list in the **Technique** field. Details of the techniques used to detect the abnormality can be found in the case report.
+3. Select the relevant option(s) from the drop-down list in the **Technique** field. The technique will be stated in the case report.
 
-Select the correct subtype in the **CNA Type** field. This information can be found in the case report. (Further information on the CNA types - deletion (monoallelic and biallelic), duplication, gain, amplification, loss of heterozygosity, isochromosome and loss - can be found in the Glossary.)
+4. Select the correct subtype in the **CNA Type** field. This information can be found in the case report. (Further information on the CNA types - deletion (monoallelic and biallelic), duplication, gain, amplification, loss of heterozygosity, isochromosome and loss - can be found in the Glossary.)
 
-In the remaining fields, enter the copy number, affected chromosome/chromosome arm, any genes that are specified in the report, exons (if included in the report), chromosome start and end points, chromosome size, genomic start and end points, genomic size, and variant frequency (VAF) in the relevant fields. Note that case reports vary in the amount and type of information included.
+5. In the remaining fields, enter the copy number, affected chromosome/chromosome arm, any genes that are specified in the report, exons (if included in the report), chromosome start and end points, chromosome size, genomic start and end points, genomic size, and variant frequency (VAF) in the relevant fields. Note that case reports vary in the amount and type of information included.
 
-Enter any clinically relevant information into the **Notes** field.
+6. Enter any clinically relevant information into the **Notes** field.
 
-Click **OK** to save or **Cancel** to close the dialogue box without saving.
+7. Click **OK** to save or **Cancel** to close the dialogue box without saving.
 
 ###### Example: CNA - biallelic deletion on 9p involving genes CDKN2A and CDKN2B, detected by WGS and SNP array
 
-![screenshot of biallelic deletion on 9p](screenshots/patient-abnormality-CNA-biallelic-deletion.png)
+![screenshot of biallelic deletion on 9p](screenshots/patient-abnormality-CNA-biallelic-deletion-v2.png)
 
 
 [Return to top of section](#add-and-edit-genetic-data)
