@@ -362,17 +362,17 @@ h. Click **OK** to save or **Cancel** to close the dialog box without saving.
 
 > Ploidy shift is a change from the expected number of 46 chromosomes. Select **Ploidy shift** if the reported number of chromosomes fits into one of the following categories:
 >
->    *High hyperdiploidy* = 51-64 chromosomes
+>    *High hyperdiploid* = 51-64 chromosomes
 > 
 >    *Low hypodiploid* = 30-39 chromosomes
 >
 >    *Near haploid* = 24-29 chromosomes
 >
-> If between one and four chromosomes have been gained or lost, do not use **Ploidy shift**; instead enter each one as a separate gain or loss. See the **Copy Number Alteration** section for details on how to enter.
+> If between one and four chromosomes have been gained or lost, do not use **Ploidy shift**, instead enter each one as a separate gain or loss. See the **Copy Number Alteration** section for details on how to enter.
 
 a. Select the type of ploidy shift from the drop-down list. See information box above for details.
 
-b. Select the technique(s) used to detect the abnormality.
+b. Select all techniques used to detect the abnormality. Remember to include **FISH** if the results indicate gains or losses of multiple chromosomes and **Cytogenetics** if a karyotype is reported that shows gains or losses.
 
 c. In the appropriate fields, enter the modal chromosome number (use ~ if reported number is estimated), specify which chromosomes have been gained and/or which chromosomes have been lost.
 
@@ -405,9 +405,7 @@ LINK HERE
 
 > Case reports for ALLTogether01 patients will include the CNA Risk Profile, categorising the patient as either **Good Risk** or **Poor Risk**. If this information is not included in the report, use the ALLTogether01 algorithm shown [below](#cna-risk-profile-algorithm) to determine the Risk Profile from the information in the case report regarding deletion of [ALL genes](#all-genes). 
 >
-> **Note:**
->
-> Risk Profile is only calculated for B-ALL patients.
+> **Note:** Risk Profile is only calculated for B-ALL patients.
 >
 > Different risk algorithms are used for the different trials. The algorithm shown below is for the current ALLTogether01 trial.
 
