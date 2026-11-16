@@ -172,7 +172,7 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 >
 > If a case report includes results from bone marrow and peripheral blood samples taken at the same timepoint (i.e. diagnosis), select *Marrow & Blood* instead of adding two separate samples.
 
-4. The **Centre** and **Hospital** fields are autofilled from data entered in the **Add Patient** stage of the data entry process. If the **Centre** and **Hospital** fields are empty and the data is known, either select the appropriate options from the drop-down lists in these fields, or navigate to the **PATIENT** tab and click **Edit** to open the **Edit Patient** dialogue box.
+4. The **Centre** and **Hospital** fields are autofilled from data entered in the **Add Patient** stage of the data entry process. If the **Centre** and **Hospital** fields are empty and the data is known, either select the appropriate options from the drop-down lists in these fields, or navigate to the **PATIENT** tab and click **Edit** to open the **Edit Patient** dialogue box and amend the relevant fields.
 
 
 5. Using the details in the case report, complete the **Doctor**, **Date of sample**, **Lab Sample ID** and **Hospital Number** fields. If these details are not included in the report, leave the field(s) blank.
@@ -190,7 +190,7 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 
 ### GENETICS TAB
 
-> **OVERVIEW**
+> **TAB OVERVIEW**
 >
 > Users with Read-only access can only view existing records and will not be able to edit them or add new records - Data Manager access is required.
 >
@@ -201,11 +201,11 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 ![Example of karyotype and subtype](screenshots/genetics-tab-topline.png)
 
 
-> The data grid displays the high-level information for each cytogenetic/molecular abnormality recorded for the patient. To view the full record, click on the pencil icon on the right of the row.
+> The data grid displays the high-level information for each cytogenetic/molecular abnormality recorded for the patient. To view the full record, either hover the cursor over the **Additional Data** column or click on the pencil icon on the right of the row to open the record.
 >
 > For information on editing the record, see the data entry instructions in the following section. 
 
-![Example of genetic abnormality data table](screenshots/genetics-tab-view-data.png)
+![Example of genetic abnormality data table](screenshots/genetics-tab-view-data-hover.png)
 
 
 -----------------------
