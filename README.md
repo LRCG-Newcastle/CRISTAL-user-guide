@@ -26,7 +26,7 @@ Select **Patients** from the menu to open the **Patient Management** landing pag
 
 > **Note:** Personal identifiers in each patient's record such as name, date of birth and NHS number will be hidden for database users with Researcher or Read-only access.
 >
-> In the screenshot below, the patient identifiers have been redacted.
+> In the screenshots in this User Guide, the patient identifiers are redacted.
 
 The **Patient Management** page includes the facility to search for patients, add new patients, and upload patient datasets.
 
@@ -57,7 +57,7 @@ To view the full patient record, click on the **RegID** on the left of the row. 
 
 2. Complete the fields using demographic, trial and diagnosis details from **Castor**. 
 
-    i. If any details are not known at this stage - e.g. full name, date of birth, immunophenotype, Down syndrome status - leave the relevant field empty. When more data are available, the patient record can be accessed and edited by navigating to the **PATIENT** tab of the patient record and clicking the **Edit** button.
+    i. If any details are not known at this stage - e.g. full name, date of birth, immunophenotype, Down syndrome status - leave the relevant field empty. When more data are available, the patient record can be edited by navigating to the **PATIENT** tab of the patient record and clicking the **Edit** button.
 
     ii. If the patient's eligibility is not yet known, select *Pending* from the **Trial Eligibility** dropdown list.
  
@@ -70,7 +70,7 @@ To view the full patient record, click on the **RegID** on the left of the row. 
 
 3. When all of the available details have been entered in the **Create New Patient** dialogue box, click **OK** to save, or to close the box without saving, click **Cancel**.
 
-4. Clicking **OK** opens the patient record for the new patient. Skip to [the Patient Record](#the-patient-record) section for guidance on entering the patient's case data.
+4. Clicking **OK** opens the patient record for the new patient at the **OVERVIEW** tab. Skip to [the Patient Record](#the-patient-record) section for guidance on entering the patient's case data.
 
 #### UPLOAD PATIENTS
 
@@ -105,7 +105,7 @@ TBC
 
 ### PATIENT TAB
 
-> **OVERVIEW**
+> **TAB OVERVIEW**
 >
 > The **PATIENT** tab presents an at-a-glance view of the patient's demographics, diagnosis details, trial participation and consent status, as well as reference data such as NHS and GEL numbers. The data grid is autofilled from the data entered at the **Add Patient** stage.
 >
@@ -147,11 +147,9 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 
 ### SAMPLES TAB
 
-> **OVERVIEW**
+> **TAB OVERVIEW**
 >
-> Users with Read-only access can only view existing records and will not be able to edit them or add new sample records - Data Manager or Researcher access is required.
->
-> The data grid displays the high-level information for each tissue sample recorded for the patient. To view the full record, click on the pencil icon on the right of the row.
+> The data grid displays the high-level information for each tissue sample recorded for the patient. To view or edit the full record, click on the pencil icon on the right of the row.
 >
 > If a tissue sample is stored in the Herschel lab, the details can be viewed by clicking the grid icon on the right of the row.
 
