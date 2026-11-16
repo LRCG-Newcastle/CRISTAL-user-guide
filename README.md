@@ -197,11 +197,8 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 > If **Karyotype** data is reported for the patient, it will be displayed in a coloured strip at the top of the tab. The data in this field is automatically generated from data entered in the **TECHNIQUES** tab.
 >
 > The **Subtype from Genetics** is automatically generated from the abnormality data entered on the **GENETICS** tab.
-
-![Example of karyotype and subtype](screenshots/genetics-tab-topline.png)
-
-
-> The data grid displays the high-level information for each cytogenetic/molecular abnormality recorded for the patient. To view the full record, either hover the cursor over the **Additional Data** column or click on the pencil icon on the right of the row to open the record.
+>
+> The data grid displays the high-level information for each cytogenetic/molecular abnormality recorded for the patient. To view the data entered for each abnormality, either hover the cursor over the **Additional Data** column to trigger the pop-up box, or click on the pencil icon on the right of the row to open the record.
 >
 > For information on editing the record, see the data entry instructions in the following section. 
 
@@ -218,8 +215,6 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 >
 > Definitions of the terms used can be found in the [Glossary](#glossary).
  
-
-##### ADD AND EDIT DATA RECORD
 
 1. To edit an existing abnormality record, click on the pencil icon on the right of the row.
 
@@ -242,11 +237,19 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 
 4. The data entry process for adding a **Patient Abnormality** varies according to type of abnormality. First, select the **Abnormality Type**, either using the drop-down list or by typing in the search box. The abnormality type can be found in the case report. For guidance on which category/ies to select for the types of abnormality found in case reports, see the Troubleshooting section.
 
-The following sections demonstrate how to add the different abnormality types.
+5. Enter abnormality data according to the instructions in the following subsections.
+
+6. Select the diagnostic technique used to detect the abnormality.
+
+> The **Technique** field drop-down list includes several techniques; for entering ALLTogether01 data from case reports, only SNP Array, WGS, DNA Sequencing, RNA fusion panel, or FISH will be relevant. The case report will specify which was used.
+>
+> See also the Resources section for guidance on which technique is used to detect which type of abnormality.
 
 ##### *GENE FUSION*
 
-This section describes the process for entering data for a **gene fusion** or a **gene rearrangement**. For guidance on entering data for a **translocation**, see the Structural Abnormality section.
+> This section describes the process for entering data for a **gene fusion** or a **gene rearrangement**.
+>
+> For guidance on entering data for a **translocation**, see the Structural Abnormality section.
 
 1. Select **Gene Fusion** in the **Abnormality Type** field. This loads a drop-down list in the **Abnormality** field that consists of gene fusions and rearrangements that are frequently found in ALL. To enter a gene fusion/rearrangement that is not in the list, the *Other - Gene Fusion* option should be used.
 
@@ -254,11 +257,11 @@ This section describes the process for entering data for a **gene fusion** or a 
 
 3. Select the gene fusion or rearrangement either by using the drop-down list or by typing in the search box.
 
-    i. If a gene fusion (e.g. *ETV6::RUNX1*) is selected from the list, the **5’ Gene** and **3’ Gene** fields will be autofilled.
+    - If a gene fusion (e.g. *ETV6::RUNX1*) is selected from the list, the **5’ Gene** and **3’ Gene** fields will be autofilled.
    
-    ii. If a gene rearrangement (e.g. *KMT2A-r*) is selected from the list, the relevant gene field will be autofilled. Enter the partner gene into the appropriate field.
+    - If a gene rearrangement (e.g. *KMT2A-r*) is selected from the list, the relevant gene field will be autofilled. Enter the partner gene into the appropriate field.
 
-   iii. If the case report includes a gene fusion that is not in the drop-down list, select **Other – Gene Fusion**. Enter the name of the 5’ gene and 3’ gene into the appropriate fields.
+    - If the case report includes a gene fusion that is not in the drop-down list, select **Other – Gene Fusion**. Enter the name of the 5’ gene and 3’ gene into the appropriate fields.
 
 > **Identifying 5' and 3' genes:**
 >
@@ -270,11 +273,11 @@ This section describes the process for entering data for a **gene fusion** or a 
 >
 > The case report may use old names for genes which have been renamed, for example: *KMT2A* (new) is often referred to as *MLL* (former name). Entering *MLL* in the **5' Gene** search box will bring up *KMT2A* at the top of the returned list.
 
-6. If specified in the case report, enter the exons for each gene into the appropriate fields.
+4. If specified in the case report, enter the exons for each gene into the appropriate fields.
 
-7. If applicable, enter any clinically relevant information in the **Notes** field.
+5. If applicable, enter any clinically relevant information in the **Notes** field.
 
-8. Click **OK** to save or **Cancel** to close the dialogue box without saving.
+6. Click **OK** to save or **Cancel** to close the dialogue box without saving.
 
 ###### Example: ETV6::RUNX1, detected by FISH, RNA fusion panel, WGS
 
@@ -292,14 +295,22 @@ This section describes the process for entering data for a **gene fusion** or a 
 
 ##### *COPY NUMBER ALTERATION*
 
-This section describes the process for entering data on changes in copy number, i.e. chromosomal gains and losses or deletions. Note: iAMP21 should be entered as **Structural Abnormality**.
+> This section describes the process for entering data on changes in copy number, i.e. chromosomal gains and losses or deletions.
+>
+> **Note:** iAMP21 should be entered as **Structural Abnormality**.
 
-After ensuring the **Sample** field is correct and selecting Copy Number Alteration in the **Abnormality Type** field, open the drop-down list in the **Abnormality** field and select the appropriate option:
-- *Whole Chromosome* if the CNA is a gain or loss of an entire chromosome,
-- *Chromosome Arm* if the CNA affects only part of a chromosome - either the short (p) arm or the long (q) arm,
-- *Focal* if the CNA relates to gain or deletion of a specific gene or genes, or a very small part of a chromosome (typically smaller than 1 Mb).
+1. Select **Copy Number Alteration** in the **Abnormality Type** field.
 
-Select the relevant option(s) from the drop-down list in the **Technique** field. Details of the techniques used to detect the abnormality can be found in the case report.
+2. Open the drop-down list in the **Abnormality** field and select the appropriate option:
+- *Whole Chromosome* if the CNA is a gain or loss of an entire chromosome [see Troubleshooting guide for a variant on this]
+- *Chromosome Arm* if the CNA affects part of a chromosome - either the short (p) arm or the long (q) arm - that does not include the centromere,
+- *Focal* if the CNA relates to gain or deletion of a specific gene or genes, or a very small part of a chromosome arm (typically smaller than 1 Mb).
+
+> **Note:** Only select a Constitutional option if the case report states it is a constitutional or germline abnormality.
+>
+> For guidance on entering *Trisomy 21* for Downs patients, see the Troubleshooting guide.
+
+3. Select the relevant option(s) from the drop-down list in the **Technique** field. Details of the techniques used to detect the abnormality can be found in the case report.
 
 Select the correct subtype in the **CNA Type** field. This information can be found in the case report. (Further information on the CNA types - deletion (monoallelic and biallelic), duplication, gain, amplification, loss of heterozygosity, isochromosome and loss - can be found in the Glossary.)
 
