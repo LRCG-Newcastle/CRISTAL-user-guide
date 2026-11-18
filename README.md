@@ -169,18 +169,14 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 
 3. Select **Sample Type** from the drop-down list. The tissue type can be found in the case report.
 
-> **Note:**
->
-> If a case report includes results from bone marrow and peripheral blood samples taken at the same timepoint (i.e. diagnosis), select *Marrow & Blood* instead of adding two separate samples.
+> **Note:** If a case report includes results from bone marrow and peripheral blood samples taken at the same timepoint (i.e. diagnosis), select *Marrow & Blood* instead of adding two separate samples.
 
 4. The **Centre** and **Hospital** fields are autofilled from data entered in the **Add Patient** stage of the data entry process. If the **Centre** and **Hospital** fields are empty and the data is known, either select the appropriate options from the drop-down lists in these fields, or navigate to the **PATIENT** tab and click **Edit** to open the **Edit Patient** dialogue box and amend the relevant fields.
 
 
 5. Using the details in the case report, complete the **Doctor**, **Date of sample**, **Lab Sample ID** and **Hospital Number** fields. If these details are not included in the report, leave the field(s) blank.
 
-> **Note:**
->
-> The 'Hospital Number' may not be included in the case report, or it may be called 'MRN'.
+> **Note:** The 'Hospital Number' may not be included in the case report, or it may be called 'MRN'.
 
 6. Click **OK** to save or **Cancel** to close the dialogue box without saving.
 
