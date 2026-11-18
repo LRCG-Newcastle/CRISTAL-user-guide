@@ -1,10 +1,10 @@
 # CRISTAL USER GUIDE
 
-CRISTAL is an online knowledge portal to host existing and future datasets for Acute Lymphoblastic Leukaemia clinical trials in the UK.
+CRISTAL is an online knowledge portal to host datasets for Acute Lymphoblastic Leukaemia clinical trials in the UK.
 
-This User Guide explains how to use the database, describing the process for searching and viewing data as well as demonstrating data entry processes. 
+This User Guide explains how to use the database, demonstrating data entry processes as well as describing the process for searching and viewing data. 
 
-**NOTE:** [To make changes to this SOP, follow these instructions](https://github.com/LRCG-Newcastle/CRISTAL-user-guide/blob/main/edit-sop.md)
+**NOTE:** [To make changes to this guide, follow these instructions](https://github.com/LRCG-Newcastle/CRISTAL-user-guide/blob/main/edit-sop.md)
 
 The guide is primarily intended for use by Data Managers entering data derived from standard-of-care case reports for patients enrolled in ALL clinical trials in the UK. It may also aid users with Researcher access to the database in viewing, adding or amending patient and sample records for non-trial studies.
 
