@@ -301,7 +301,7 @@ a. Select **Copy Number Alteration** in the **Abnormality Type** field.
 
 b. Open the drop-down list in the **Abnormality** field and select the appropriate option:
 
-- *Whole Chromosome* if the CNA is a gain or loss of an entire chromosome [see Troubleshooting guide for a variant on this]
+- *Whole Chromosome* if the CNA is a gain or loss of an entire chromosome. Note: If multiple chromosomes have been gained or lost, this should be entered as **Ploidy Shift** (see section below). [see also Troubleshooting guide for 'gain of deleted chromosome']
 
 - *Chromosome Arm* if the CNA affects part of a chromosome - either the short (p) arm or the long (q) arm - that does not include the centromere,
 
@@ -309,9 +309,9 @@ b. Open the drop-down list in the **Abnormality** field and select the appropria
 
 > **Note:** Only select a Constitutional option if the case report states it is a constitutional or germline abnormality.
 >
-> For guidance on entering *Trisomy 21* for Downs patients, see the Troubleshooting guide.
+> For guidance on entering trisomy 21 in relation to Downs patients, see the Troubleshooting guide.
 
-c. Select the relevant option(s) from the drop-down list in the **Technique** field. The technique will be stated in the case report.
+c. Select all techniques used to detect the abnormality. Remember to include **FISH** if the results suggest gains or losses of chromosomes and **Cytogenetics** if a karyotype is reported that shows gains or losses.
 
 d. Select the correct subtype in the **CNA Type** field. This information can be found in the case report. (Further information on the CNA types - deletion (monoallelic and biallelic), duplication, gain, amplification, loss of heterozygosity, isochromosome and loss - can be found in the Glossary.)
 
@@ -331,9 +331,11 @@ g. Click **OK** to save or **Cancel** to close the dialogue box without saving.
 
 ##### *MUTATION*
 
-a. Select the specific mutation from the drop-down list; if it is not listed, select **Other – Gene Mutation**.
+a. Select **Mutation** in the **Abnormality Type** field.
 
-b. Select the technique(s) used to detect the abnormality.
+b. Open the drop-down list in the **Abnormality** field and select the specific mutation; if it is not listed, select **Other – Gene Mutation**.
+
+b. Select the technique(s) used to detect the abnormality. This information will be found in the case report.
 
 c. From the drop-down lists, select Somatic or Germline, select the affected gene by typing in the search box of the **Gene** field, and select mutation type if specified.
 
@@ -356,7 +358,7 @@ h. Click **OK** to save or **Cancel** to close the dialog box without saving.
 
 ##### *OTHER*
 
-> Selecting **Other** gives the same options as **Structural Abnormality**. Use that instead.
+> Selecting **Other** gives the same field options as **Structural Abnormality**. Use that instead.
 
 ##### *PLOIDY SHIFT*
 
