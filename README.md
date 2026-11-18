@@ -4,9 +4,9 @@ CRISTAL is an online knowledge portal to host datasets for Acute Lymphoblastic L
 
 This User Guide explains how to use the database, demonstrating data entry processes as well as describing the process for searching and viewing data. 
 
-> **NOTE:** To make changes to this guide, follow [these instructions](https://github.com/LRCG-Newcastle/CRISTAL-user-guide/blob/main/edit-sop.md)
+> **NOTE:** Each section in the guide can be accessed as you navigate through CRISTAL: click the ![screenshot of i icon](screenshots/i-icon-all-tabs.png) icon on each page to open the relevant section.
 >
-> Each section in the guide can be accessed as you navigate through CRISTAL: click the ![screenshot of i icon](screenshots/i-icon-all-tabs.png) icon on each page to access the relevant section.
+> To make changes to this guide, follow [these instructions](https://github.com/LRCG-Newcastle/CRISTAL-user-guide/blob/main/edit-sop.md).
 
 The guide is primarily intended for use by Data Managers entering data derived from standard-of-care case reports for patients enrolled in ALL clinical trials in the UK. It may also aid users with Researcher access to the database in viewing, adding or amending patient and sample records for non-trial studies.
 
@@ -164,9 +164,6 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 #### ADD AND EDIT SAMPLES
 
 1. To add a sample, click the ⊕ button above the data grid. To edit an existing sample record, click the pencil icon on the right of the row. The **Add Patient Sample** dialogue box will open. 
-
-![Example of add patient sample dialogue box](screenshots/samples-add-patient-sample.png)
-
 
 2. Select the **Patient Status** from the drop-down list. When entering data from a case report, the patient status will usually be *Diagnosis*.
 
