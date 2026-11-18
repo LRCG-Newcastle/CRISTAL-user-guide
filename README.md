@@ -1,18 +1,22 @@
 # CRISTAL USER GUIDE
 
-CRISTAL is an online knowledge portal to host existing and future datasets for Acute Lymphoblastic Leukaemia clinical trials in the UK.
+CRISTAL is an online knowledge portal to host datasets for Acute Lymphoblastic Leukaemia clinical trials in the UK.
 
-This User Guide explains how to use the database, describing the process for searching and viewing data as well as demonstrating data entry processes. 
+This User Guide explains how to use the database, demonstrating data entry processes as well as describing the process for searching and viewing data. 
 
-**NOTE:** [To make changes to this SOP, follow these instructions](https://github.com/LRCG-Newcastle/CRISTAL-user-guide/blob/main/edit-sop.md)
+> **NOTE:** To make changes to this guide, follow [these instructions](https://github.com/LRCG-Newcastle/CRISTAL-user-guide/blob/main/edit-sop.md)
+>
+> Each section in the guide can be accessed as you navigate through CRISTAL: click the ![screenshot of i icon](screenshots/i-icon-all-tabs.png) icon on each page to access the relevant section.
 
 The guide is primarily intended for use by Data Managers entering data derived from standard-of-care case reports for patients enrolled in ALL clinical trials in the UK. It may also aid users with Researcher access to the database in viewing, adding or amending patient and sample records for non-trial studies.
 
-To skip to instructions for completing data entry for new trial patients and editing existing patient records, click [here](#the-patient-record).
+To skip to instructions for entering data for new trial patients and editing existing patient records, click [here](#the-patient-record).
 
 ## CRISTAL HOMEPAGE
 
-On logging in, the user lands at the **Homepage**, which displays the database menu in the sidebar. In the following sections, each menu option is outlined in turn; click the links below to access each section or click the ![screenshot of i icon](screenshots/i-icon-all-tabs.png) icon as you navigate through the database. 
+On logging in, the user lands at the **Homepage**, which displays the database menu in the sidebar. In the following sections, each menu option is outlined in turn. 
+
+ 
 
 ![homepage menu](screenshots/cristal-homepage-menu.png)
 
