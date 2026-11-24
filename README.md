@@ -367,17 +367,17 @@ h. Click **OK** to save or **Cancel** to close the dialog box without saving.
 >
 >    *Near haploid* = 24-29 chromosomes
 >
-> If between one and four chromosomes have been gained or lost, do not use **Ploidy shift**, instead enter each one as a separate gain or loss. See the **Copy Number Alteration** section for details on how to enter.
+> If between one and four chromosomes have been gained or lost, do not use **Ploidy shift**; instead enter each one as a separate gain or loss. See the **Copy Number Alteration** section for details on how to enter gains or losses of single chromosomes.
 
 a. Select the type of ploidy shift from the drop-down list. See information box above for details.
 
-b. Select all techniques used to detect the abnormality. Remember to include **FISH** if the results indicate gains or losses of multiple chromosomes and **Cytogenetics** if a karyotype is reported that shows gains or losses.
+b. Select all techniques used to detect the abnormality. Remember to include **FISH** if the results indicate a gain or loss of a chromosome and **Cytogenetics** if a karyotype is reported that shows a gain or loss.
 
 c. In the appropriate fields, enter the modal chromosome number (use ~ if reported number is estimated), specify which chromosomes have been gained and/or which chromosomes have been lost.
 
 > **Note:** Chromosome numbers should be entered in numerical order, with X and/or Y at the start of the list (if applicable). 
 
-d. Complete the **Variant Frequency** field if known.
+d. Complete the **Variant Frequency** field if known. This may be called VAF or Variant Allele Frequency in the report.
 
 e. Complete the **ISCN like description** field if known.
 
@@ -385,9 +385,9 @@ f. Enter any clinically relevant information in the **Notes** field.
 
 g. Click **OK** to save or **Cancel** to close the dialog box without saving.
 
-###### Example: high hyperdiploidy (HeH) with 53 chromosomes, detected by karyotype, FISH, WGS and SNP
+###### Example: high hyperdiploidy (HeH) with 53 chromosomes, detected by Cytogenetics, FISH, WGS and SNP
 
-![Screenshot of high hyperdiploid clone with 53 chromosomes](screenshots/patient-abnormality-ploidy-shift-HeH.png)
+![Screenshot of high hyperdiploid clone with 53 chromosomes](screenshots/patient-abnormality-ploidy-shift-HeH-v2.png)
 
 [Return to top of section](#add-and-edit-genetic-data)
 
