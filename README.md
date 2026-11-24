@@ -396,7 +396,7 @@ g. Click **OK** to save or **Cancel** to close the dialog box without saving.
 
 > This section describes the process for entering data on structural abnormalities.
 >
-> This category includes complex rearrangements such as *chromothripsis*, *chromoanasynthesis* and *chromoplexy*, as well as simple rearrangements such as *intrachromosomal rearrangement* (involving a single breakpoint on one chromosome) and *chromosomal translocation* (involving 2 (or sometimes 3) breakpoints, e.g. [insert an example that shouldn't be entered as a gene fusion]).
+> This category includes complex rearrangements such as *chromothripsis*, *chromoanasynthesis* and *chromoplexy* (involving multiple breakpoints on a single chromosome), as well as simple rearrangements such as *intrachromosomal rearrangement* (involving a single breakpoint on one chromosome) and *chromosomal translocation* (involving 2 (or sometimes 3) breakpoints, e.g. [insert an example that shouldn't be entered as a gene fusion]).
 >
 > This section demonstrates data entry for a simple structural abnormality. See the Troubleshooting guide for information on how to enter more complex cases.
 
