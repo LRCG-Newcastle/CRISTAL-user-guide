@@ -158,7 +158,7 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 > If a tissue sample is stored in the Herschel lab, the details can be viewed by clicking the grid icon on the right of the row.
 
 
-![Example of patient sample records](screenshots/samples-overview-v2.png)
+![Example of patient sample record](screenshots/samples-overview-v3.png)
 
 
 #### ADD AND EDIT SAMPLES
