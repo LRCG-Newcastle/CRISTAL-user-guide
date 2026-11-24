@@ -276,13 +276,13 @@ g. Click **OK** to save or **Cancel** to close the dialogue box without saving.
 
 ###### Example: ETV6::RUNX1, detected by FISH, RNA fusion panel, WGS
 
-![Screenshot of ETV6::RUNX1 gene fusion data entry example](screenshots/patient-abnormality-gene-fusion-2.png)
+![Screenshot of ETV6::RUNX1 gene fusion data entry example](screenshots/patient-abnormality-gene-fusion-v2.png)
 
 
 
 ###### Example: KMT2A::MLLT3, detected by WGS, RNA fusion panel
 
-![Screenshot of KMT2A-r abnormality data entry example](screenshots/patient-abnormality-rearrangement-2.png)
+![Screenshot of KMT2A-r abnormality data entry example](screenshots/patient-abnormality-rearrangement-2-v2.png)
 
 
 [Return to top of section](#add-and-edit-genetic-data)
