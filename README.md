@@ -254,7 +254,7 @@ c. Select the gene fusion or rearrangement either by using the drop-down list or
    
 - If a gene rearrangement (e.g. *KMT2A-r*) is selected from the list, the relevant gene field will be autofilled. Enter the partner gene into the appropriate field.
 
-- If the case report includes a gene fusion that is not in the drop-down list, select **Other – Gene Fusion**. Enter the name of the 5’ gene and 3’ gene into the appropriate fields.
+- If a reported gene fusion is not in the drop-down list, select **Other – Gene Fusion**. Enter the name of the 5’ gene and 3’ gene into the appropriate fields.
 
 > **Identifying 5' and 3' genes:**
 >
@@ -268,7 +268,7 @@ c. Select the gene fusion or rearrangement either by using the drop-down list or
 
 d. If specified in the case report, enter the exons for each gene into the appropriate fields.
 
-e. Select the diagnostic technique used to detect the abnormality. The technique will be stated in the case report. For ALLTogether01 data entry, the relevant technique for a gene fusion is *RNA fusion panel*.
+e. Select the diagnostic technique used to detect the abnormality. Relevant techniques for a gene fusion are *RNA fusion panel*, *FISH* and *WGS*. The techniques used in each case will be stated in the report.
 
 f. If applicable, enter any clinically relevant information in the **Notes** field.
 
