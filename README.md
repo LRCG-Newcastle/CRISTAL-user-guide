@@ -300,7 +300,7 @@ b. Open the drop-down list in the **Abnormality** field and select the appropria
 
 - *Whole Chromosome* if the CNA is a gain or loss of an entire chromosome. Note: If multiple chromosomes have been gained or lost, this should be entered as **Ploidy Shift** (see section below). [see also Troubleshooting guide for 'gain of deleted chromosome']
 
-- *Chromosome Arm* if the CNA affects part of a chromosome - either the short (p) arm or the long (q) arm - that does not include the centromere,
+- *Chromosome Arm* if the CNA affects part of a chromosome - either the short (p) arm or the long (q) arm - that does not include the centromere;
 
 - *Focal* if the CNA relates to gain or deletion of a specific gene or genes, or a very small part of a chromosome arm (typically smaller than 1 Mb).
 
@@ -348,7 +348,7 @@ h. Click **OK** to save or **Cancel** to close the dialog box without saving.
 
 ###### Example: germline missense variant of uncertain significance in the BRCA2 gene
 
-![Screenshot of germline missense variant of uncertain significance in the BRCA2 gene](screenshots/patient-abnormality-mutation-BRCA2.png)
+![Screenshot of somatic oncogenic missense variant in the KRAS gene](screenshots/patient-abnormality-mutation-KRAS.png)
 
 
 [Return to top of section](#add-and-edit-genetic-data)
