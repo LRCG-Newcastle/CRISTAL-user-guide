@@ -180,7 +180,7 @@ The **Code Group** data grid shows which code groups the patient record is assoc
 
 6. Click **OK** to save or **Cancel** to close the dialogue box without saving.
 
-![Example of completed patient sample data entry](screenshots/samples-add-patient-sample-complete.png)
+![Example of completed patient sample data entry](screenshots/samples-add-patient-sample-complete-v2.png)
 
 
 ------------------------------------
