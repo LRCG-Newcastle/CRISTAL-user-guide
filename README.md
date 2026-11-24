@@ -135,7 +135,7 @@ The **Trial** data grid is autofilled from data entered on the **PATIENT** tab.
 
 ![Screenshot of Trial data grid](screenshots/groups-trials-overview-v2.png)
 
-> **Note:** If the trial is no longer active, move the *Active trial* slider to the off position.
+> **Note:** If the trial is no longer active, click the pencil icon to open the **Add Patient Trial** box and move the *Active trial* slider to the off position.
 
 
 ![Screenshot of active trial dialogue box](screenshots/groups-trials-active-trial-yes-no.png)
